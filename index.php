@@ -6,7 +6,7 @@ $price = 2;
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Variables</title>
+    <title>updating variables </title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
