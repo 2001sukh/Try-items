@@ -67,6 +67,14 @@ $name    = 'sukhdeep';
 $message = "$prefix  $name";
 ?>
 
+<!-- // comparison-operators-->
+<?php 
+$item    = 'Chocolate';
+$stock   = 5;
+$wanted  = 8;
+$can_buy = ($wanted <= $stock);
+?>
+
 
 
 
@@ -158,6 +166,18 @@ $message = "$prefix  $name";
     <h1>The Candy Store</h1>
     <h2><?= $name ?>'s Order</h2>
     <p><?= $message ?></p>
+
+    <!-- // comparison-operators-->
+    <title>Comparison Operators</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>The Candy Store</h1>
+    <h2>Shopping Cart</h2>
+    <p>Item:    <?= $item ?></p>
+    <p>Stock:   <?= $stock ?></p>
+    <p>Wanted:  <?= $wanted ?></p>
+    <p>Can buy: <?= $can_buy ?></p>
 
   </body>
 </html>
