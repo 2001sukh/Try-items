@@ -86,7 +86,7 @@ $can_buy = (($wanted <= $stock) && ($deliver == true));
 
 <!-- // Example-->
 <?php
-$username = 'Ivy';                                   // Variable to hold username
+$username = 'Sukhdeep';                                   // Variable to hold username
 
 $greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
 
