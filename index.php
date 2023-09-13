@@ -14,6 +14,14 @@ $nutrition = [
 ];
 ?>
 
+<!-- // indexed arrays -->
+<?php 
+$best_sellers = ['Chocolate', 'Mints', 'Fudge', 'licorice',
+    'Bubble gum', 'Toffee', 'Jelly beans',];
+?>
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,6 +39,8 @@ $nutrition = [
        <p>Fat:   <?php  echo $nutrition['fat']; ?>%</p>
        <p>Sugar:   <?php  echo $nutrition['sugar']; ?>%</p>
        <p>Salt:   <?php  echo $nutrition['salt']; ?>%</p>
+
+ 
 
 
 
