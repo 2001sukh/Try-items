@@ -20,7 +20,7 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
 
-<!-- // updating arrays number  -->
+<!-- // updating arrays nutrition values   -->
 <?php 
 $nutrition = [
     'fat'   => 38, 
@@ -29,6 +29,7 @@ $nutrition = [
 ];
 $nutrition['fat']   = 36;
 $nutrition['fiber'] = 2.1;
+$nutrition['protein'] = 7.3;
 ?>
 
 
@@ -61,6 +62,8 @@ $nutrition['fiber'] = 2.1;
       <li><?php echo $best_sellers[5]; ?></li>
     </ul>
 
+
+<!-- updating arrays nutrition values  --> 
 
 
   </body>
