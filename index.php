@@ -40,7 +40,16 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'licorice',
        <p>Sugar:   <?php  echo $nutrition['sugar']; ?>%</p>
        <p>Salt:   <?php  echo $nutrition['salt']; ?>%</p>
 
- 
+ <!-- indexed arrays --> 
+ <h1>The Candy Store</h1>
+    <h2>Best Sellers</h2>
+    <ul>
+      <li><?php echo $best_sellers[0]; ?></li>
+      <li><?php echo $best_sellers[1]; ?></li>
+      <li><?php echo $best_sellers[2]; ?></li>
+      <li><?php echo $best_sellers[4]; ?></li>
+      <li><?php echo $best_sellers[5]; ?></li>
+    </ul>
 
 
 
