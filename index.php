@@ -20,6 +20,16 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
 
+<!-- // updating arrays number  -->
+<?php 
+$nutrition = [
+    'fat'   => 38, 
+    'sugar' => 51, 
+    'salt'  => 0.25,
+];
+$nutrition['fat']   = 36;
+$nutrition['fiber'] = 2.1;
+?>
 
 
 <!DOCTYPE html>
