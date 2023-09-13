@@ -60,6 +60,13 @@ $total    = $subtotal + $tax;
 ?>
 
 
+<!-- // string-operator-->
+<?php 
+$prefix  = 'Thank you';
+$name    = 'Ivy';
+$message = $prefix . ', ' . $name;
+?>
+
 
 
 
@@ -140,6 +147,17 @@ $total    = $subtotal + $tax;
     <p>Subtotal: $<?= $subtotal ?></p>
     <p>Tax: $<?= $tax ?></p>
     <p>Total: $<?= $total ?></p>
+
+
+    
+<!-- // string-operator-->
+    <title>String Operator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>The Candy Store</h1>
+    <h2><?= $name ?>'s Order</h2>
+    <p><?= $message ?></p>
 
   </body>
 </html>
