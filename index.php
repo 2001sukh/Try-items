@@ -95,6 +95,8 @@ $offers = [
       $<?php echo $offers[1]['price']; ?> </p>
     <p><?php echo $offers[2]['name']; ?> -
       $<?php echo $offers[2]['price']; ?> </p>
+      <p><?php echo $offers[3]['name']; ?> -
+      $<?php echo $offers[3]['price']; ?> </p>
 
 
   </body>
