@@ -43,6 +43,16 @@ $offers = [
   ];
   ?>
 
+
+<!-- // echo-shorthand -->
+<?php 
+$name      = 'sukhdeep';
+$favorites = ['Chocolate', 'Toffee', 'Fudge',];
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
