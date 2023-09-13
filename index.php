@@ -39,6 +39,7 @@ $offers = [
     ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
     ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
     ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
+    ['name' => 'chocholate',  'price' => 2, 'stock' => 83,],
 
 
 <!DOCTYPE html>
