@@ -33,6 +33,14 @@ $nutrition['protein'] = 7.3;
 ?>
 
 
+<!-- // Multidimensional arrays  -->
+<?php 
+$offers = [
+    ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
+    ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
+    ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
+
+
 <!DOCTYPE html>
 <html>
   <head>
