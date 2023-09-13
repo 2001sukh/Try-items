@@ -52,7 +52,7 @@ $favorites = ['Chocolate', 'Toffee', 'Fudge',];
 
 <!-- // arithmetic-operatiors -->
 <?php 
-$items    = 3;
+$items    = 20;
 $cost     = 10;
 $subtotal = $cost * $items;
 $tax      = ($subtotal / 100) * 20;
