@@ -50,6 +50,16 @@ $name      = 'sukhdeep';
 $favorites = ['Chocolate', 'Toffee', 'Fudge',];
 ?>
 
+<!-- // arithmetic-operatiors -->
+<?php 
+$items    = 3;
+$cost     = 10;
+$subtotal = $cost * $items;
+$tax      = ($subtotal / 100) * 20;
+$total    = $subtotal + $tax;
+?>
+
+
 
 
 
@@ -117,5 +127,20 @@ $favorites = ['Chocolate', 'Toffee', 'Fudge',];
     <h2>Welcome <?= $name ?></h2>
     <p>Your favorite type of candy is:
        <?= $favorites[1] ?>.</p>
+
+<!-- // arithmetic-operatiors -->
+<title>Mathematical Operators</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>The Candy Store</h1>
+    <h2>Shopping Cart</h2>
+    <p>Items: <?= $items ?></p>
+    <p>Cost per pack: $<?= $cost ?></p>
+    <p>Subtotal: $<?= $subtotal ?></p>
+    <p>Tax: $<?= $tax ?></p>
+    <p>Total: $<?= $total ?></p>
+
   </body>
 </html>
+
